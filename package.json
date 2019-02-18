@@ -1,0 +1,21 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "description": "a demo of rollup",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c"
+  },
+  "author": "heuulzp@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  },
+  "dependencies": {
+    "the-answer": "^1.0.0"
+  }
+}
